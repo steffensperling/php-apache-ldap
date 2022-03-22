@@ -1,4 +1,5 @@
 FROM php:7.1-apache
+LABEL com.ventum.authors="steffen.sperling@ventum.com"
 EXPOSE 80
 VOLUME /var/www/html
 RUN apt-get update && apt-get install wget -y && \
